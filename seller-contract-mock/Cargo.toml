@@ -1,0 +1,18 @@
+[package]
+name = "seller-contract-mock"
+version = "0.0.0"
+authors = ["Dorin Iancu <dorin.iancu@elrond.com>"]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.elrond-wasm]
+version = "0.27.4"
+
+[dependencies.esdt-nft-marketplace]
+path = "../esdt-nft-marketplace"
+
+[dev-dependencies.elrond-wasm-debug]
+version = "0.27.4"
